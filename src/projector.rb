@@ -1,7 +1,7 @@
 
 module Projector
 	class RackView
-    def call
+    def call(env)
       [
         200,
         { 'Content-Type' => 'text/plain' },
